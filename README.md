@@ -23,10 +23,12 @@ Lastly we filled the following missing value variables, ‘fee1’, ‘fee2’, 
 
 4 MODELS
 
-Method
-Multiple Linear Regression Lasso regression Random Forest regression LightGBM regression XG boost regression
-MAE
-9.512 9.564 9.417 9.342 9.294
+Method.                                            MAE
+Multiple Linear Regression                         9.512
+Lasso regression                                   9.564
+RandomForest regression                            9.417 
+LightGBM regression                                9.342
+XG boost regression                                9.294
 
 Table 1: Table of various methods and their MAE.
 
