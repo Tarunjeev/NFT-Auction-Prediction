@@ -1,8 +1,12 @@
 # NFT-Auction-Prediction
 1 INTRODUCTION
+
+
 This module studies the auction prices of NFT’s using various machine learning methodologies. Data about the NFT’s is obtained from the following Kaggle competition. The goal of this module is to use the historical selling records of various NFT’s and predict the price for unseen NFT’s.
 Before conducting any prediction modeling, pre-processing of the data was done to handle missing-data and irregular data points. This is an important step in the project and it likely had a substantial impact on our MAE scores. After prepossessing the data, we were able to use machine learning techniques such as Multiple Linear Regression, Ada-Boost Regression, Ensemble Regression, and XG Boost Regression to choose the method with the lowest RMSE score. The method that provided our team with the lowest RMSE score, equal to 103.76218, is XG Boost.
 2 DATA EXPLORATION
+
+
 Firstly, we explored both of the datasets in an attempt to find patterns and peculiarities. We checked if the datatype for each column and see if any column has non-null values, after which we looked into the percentage of missing values to get a good idea about the significance of variables. Further more We had a look at the skewness of the data and the outliers present in the data.
 Figure 1: info() on the data
 Through the exploratory methods, we found insightful patterns in the data-set:
